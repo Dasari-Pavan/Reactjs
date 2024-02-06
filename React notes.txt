@@ -29,4 +29,73 @@ const root=ReactDOM.createRoot(document.getElementById("root"))
 root.render(parent);
 
 
+-----------------------------------------------------------------------------------------------------------------------
+
+
+  
+-->First need to open in git bash  (git config --global user.email "pvnkmrdsr@gmail.com")
+-->(git config --local user.name "Dasari-Pavan")
+
+git hub  setup in vscode
+
+-->git init
+-->git branch -m main
+-->git add .
+-->git commit -m "somename"
+-->git remote add origin https:------
+-->git push -u origin main
+
+
+-->how to add new files to existing git repository
+
+Explanation: To communicate with the remote git repo you need to link it with a folder in your local machine (git init). After this, add the remote repo link (git remote add origin <URL>) and pull it (git pull origin master). Now, once your local folder is synchronized with the remote repo you're free to add any new files (git add <file>, git commit -m <message> and git push origin master).
+
+----------------------------------------------------------------------------
+
+npm init--for install package.json
+then install npm install -D parcel--to install devdependencie not normal devdependencie
+thats why we use -D 
+they are two type dependencies
+
+next node_modules keep in ---.gitignore file because we dont need to put them 
+in github because we can re initialise them again 
+by package.json  and package.lock-json and so we have to keep package.json push into
+git hub repositry---npm install -- means we will install nodemodules again
+so thats why we no need to keep in github
+
+npx parcel index.html-->so  will go built server by igniting app
+
+normal way install react not by cdn depending 
+so-->npm install react
+npm install react-dom  or npm i react both same 
+
+how to use react in js
+
+import react from "react";
+import ReactDOM from 
+
+
+
+#Parcel
+-Dev Build
+-Local Server
+-HMR = Hot Module Replacement
+-File Watching Algorithm-written in c++
+-caching-faster Builds
+-Images optimization
+-Minification
+-Bundling
+-compressing
+-consistent Handling
+-code splitting
+-Differential Bundling -support older browsers
+-Diagnostic
+-Error Handling
+-HTTPs
+-Tree Shaking-remove unused code
+-Different dev and prod bundles
+
+while building prod bunlde so we have to remove main in package.json
+then only next will build 
+cmd-->npx parcel build index.html
 
