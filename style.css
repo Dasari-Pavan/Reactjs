@@ -1,3 +1,83 @@
-#child1{
-    color: green;
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    /* border:1px solid black */
 }
+.logo{
+    width:100px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.nav-items{
+    padding:5px 5px;
+}
+.nav-items>ul{
+    display: flex;
+    list-style-type:none;
+    font-size: 15px;
+}
+
+.nav-items>ul>li{
+    padding:10px;
+    margin:10px;
+}
+.nav-items>ul>li:hover{
+    text-decoration: underline;
+    color: grey;
+}
+.res-card{
+    width:300px;
+    height:275px;
+    
+    box-shadow: -10px 16px 56px 7px rgba(0,0,0,0.1);
+    padding:5px
+}
+.res-card:hover{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.search{
+    padding:10px;
+}
+.res-logo{
+ padding:5px;
+ width:95%;
+ border-radius: 20px;
+}
+.Restaurant-Container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding:25px ;
+    align-self: last baseline;
+    
+    
+}
+.res-card>h3{
+   padding-left:14px;
+}
+.res-card #bir{
+    color:grey;
+    padding-left: 13px;
+    margin-top: -10px;
+}
+#rupees{
+    margin-top: -30px;
+    padding-left: 13px;
+    margin-left: 200px;
+    color:grey;
+}
+.starrate{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -35px;
+}
+.starrate #rating{
+    padding-left: 13px;
+    background-color:lightgreen;
+}
+
+
+
